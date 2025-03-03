@@ -34,7 +34,7 @@
  */
 #define PROS_USE_LITERALS
 
-#include "pros/api.h" // IWYU pragma: keep
+#include "pros/apix.h" // IWYU pragma: keep
 
 /**
  * You should add more #includes here
