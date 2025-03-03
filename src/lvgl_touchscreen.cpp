@@ -10,7 +10,7 @@
 #include <cstdlib>
 #include "pros/motors.h"
 
-#include "lemlib/api.hpp"
+#include "lemlib/api.hpp" // IWYU pragma: keep
 // ----------------------
 // Global variables
 
@@ -123,6 +123,7 @@ static lv_obj_t* label_odom;
 static lv_obj_t* label_batt;
 
 // Update the banner with current data
+
 void update_init_banner() {
     // Dynamic data; replace these with actual readings as needed.
     float odom_x = chassis.getPose().x;    // Actual odometry x-coordinate
