@@ -4,7 +4,8 @@
       "name": "PROS Project",
       "includePath": [
         "${workspaceFolder}/**",
-        "/Users/jonah.chang/Documents/56S-MAIN-CODE/56S-MAIN-CODE/include"
+        "/Users/jonah.chang/Documents/56S-MAIN-CODE/56S-MAIN-CODE/include",
+        "/Users/jonah.chang/Documents/56S-MAIN-CODE/include"
       ],
       "defines": [
         "_DEBUG",
@@ -20,7 +21,7 @@
       ],
       "browse": {
         "path": [
-          "/Users/jonah.chang/Documents/56S-MAIN-CODE/56S-MAIN-CODE"
+          "/Users/jonah.chang/Documents/56S-MAIN-CODE"
         ],
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""

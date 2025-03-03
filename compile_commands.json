@@ -69,11 +69,11 @@
             "-funwind-tables",
             "--std=gnu++20",
             "-o",
-            "bin/main.cpp.o",
-            "src/main.cpp"
+            "bin/autons.cpp.o",
+            "src/autons.cpp"
         ],
         "directory": "/Users/jonah.chang/Documents/56S-MAIN-CODE",
-        "file": "src/main.cpp"
+        "file": "src/autons.cpp"
     },
     {
         "arguments": [
@@ -107,10 +107,10 @@
             "-funwind-tables",
             "--std=gnu++20",
             "-o",
-            "bin/autons.cpp.o",
-            "src/autons.cpp"
+            "bin/main.cpp.o",
+            "src/main.cpp"
         ],
         "directory": "/Users/jonah.chang/Documents/56S-MAIN-CODE",
-        "file": "src/autons.cpp"
+        "file": "src/main.cpp"
     }
 ]
