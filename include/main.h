@@ -42,9 +42,9 @@
 //#include "okapi/api.hpp"
 #include "globals.hpp"// IWYU pragma: keep
 #include "lvgl_touchscreen.hpp" // IWYU pragma: keep
-#include "colorsort.hpp" //IWYU
+#include "colorsort.hpp" // IWYU pragma: keep
 #include "lemlib/api.hpp"// IWYU pragma: keep
-#include "lemlib/chassis/chassis.hpp"
+#include "lemlib/chassis/chassis.hpp" // IWYU pragma: keep
 /**
  * If you find doing pros::Motor() to be tedious and you'd prefer just to do
  * Motor, you can use the namespace with the following commented out line.
