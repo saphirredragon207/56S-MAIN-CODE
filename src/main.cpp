@@ -125,8 +125,9 @@ lemlib::Chassis chassis(drivetrain, lateral_controller, angular_controller, sens
  */
 void initialize() {
     //pros::lcd::initialize();
-    chassis.calibrate();
     rotation_sensor.set_position(0);
+    chassis.calibrate();
+    
     // Initialize LVGL
     lv_init();
 
@@ -207,13 +208,7 @@ void competition_initialize() {}
 void autonomous() {
     update_match_data();
 
-
-    Blue_Right_Elims();
-    //Red_Left_Elims(); 
-    //skills_auton_1();
-    //AWP_Blue_Right();
-    //AWP_Red_Left(); 
-    /*
+    
     switch(selected_auton) {
         case 0:
             Red_Left_Elims(); 
@@ -246,7 +241,7 @@ void autonomous() {
         default:
             break;
     }
-    */
+    
     
 }
 
@@ -295,7 +290,8 @@ void opcontrol() {
         } else if (controller.get_digital(DIGITAL_L2)) {
             liftPositionsAuton(position_4);
         }
-
+        
+        
         // Update GUI at intervals
         double current_x = chassis.getPose().x;
         double current_y = chassis.getPose().y;
