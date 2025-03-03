@@ -42,7 +42,7 @@
 //#include "okapi/api.hpp"
 #include "globals.hpp"// IWYU pragma: keep
 #include "lvgl_touchscreen.hpp" // IWYU pragma: keep
-#include "colorsort.hpp"
+#include "colorsort.hpp" //IWYU
 #include "lemlib/api.hpp"// IWYU pragma: keep
 #include "lemlib/chassis/chassis.hpp"
 /**
