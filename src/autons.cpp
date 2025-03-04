@@ -7,7 +7,7 @@
 AUTON CODE DEFINITIONS
 */
 // Constants for speeds (out of 127)
-const int DRIVE_SPEED = 80;
+const int DRIVE_SPEED = 127;
 const int TURN_SPEED = 110;
 const int SWING_SPEED = 110;
 
